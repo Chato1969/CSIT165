@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Part 1: Introduction to modeling using basic R syntax
-```{r puppies, echo=FALSE, eval=TRUE}
+```{r puppies, echo=TRUE, eval=TRUE}
 # Congratulations, you have puppy fever! As someone who is inflicted with puppy fever, you would like to buy as many puppies as you perceivably can. To help you determine if you can afford all of the puppies you want or to determine how many puppies you can afford, you opt to use R to help you. In this exercise, please print the contents of each variable after you declare it.
 
 # Create a variable puppies equal to the number of puppies you’d like to have.
@@ -51,7 +51,7 @@ print(max_puppies)
 ```
 
 ## Part 2: Manipulating variables and learning how to use new functions
-```{r favorite, echo=FALSE, eval=TRUE}
+```{r favorite, echo=TRUE, eval=TRUE}
 # You work as a data analyst for a new company and are asked to create id tags for everyone at work. Your goal is to make it informative as well as personal to help facilitate collaboration in the work place. To do this, you first want to gather information about each employee.
 
 # Assign your name to the variable my_name in four different ways.
@@ -226,7 +226,7 @@ paste(cat(id4, collapse = " "), cat(id4, sep = " \n"))
 
 ### Part 3: Accessing data in GitHub and mastering order of operations
 
-```{r data.RData, echo=FALSE, eval=TRUE}
+```{r data.RData, echo=TRUE, eval=TRUE}
 # Your employer asks you to solve for x using the quadratic equation:
 # x = (-b +- sqrt(b^2 - 4*a*c)) / (2*a)
 # The values for a, b, and c are the min, max, and mean respectively of a data set that your employer has on GitHub.
@@ -253,7 +253,7 @@ paste(cat("x = {", x2, ",", x1, "}\n")) # Again switch and round look nice but a
 
 ```
 
-```{r date, echo=FALSE, eval=TRUE}
+```{r date, echo=TRUE, eval=TRUE}
 # Test for date
 section <- 165
 date <- Sys.Date()

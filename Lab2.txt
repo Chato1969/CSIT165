@@ -6,6 +6,11 @@ output:
   html_document: default
   word_document: default
   pdf_document: default
+Instructor: Troy Alva, PhD
+Class: R PROGRAMMING (CSIT_165)
+Palomar ID: 001010211
+Section: 32006
+Adjunct: Instructor Computer Science and Information Technology
 ---
 
 ```{r setup, include=FALSE}
